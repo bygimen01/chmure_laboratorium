@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+}
+
+.album img{
+    height: 225px;
+    object-fit: cover;
+    width: auto;
+}
+
+.modal-body img{
+    width: auto;
+    height: auto;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 900px !important;
+        margin: 1.75rem auto;
+    }
+}
